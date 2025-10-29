@@ -117,7 +117,7 @@
   <h1>Atestado Médico</h1>
   <p>Seu documento foi validado com sucesso.</p>
   <!-- Aqui você vai colocar o PDF -->
-  <iframe id="pdfAtestado" src=""></iframe>
+  <iframe id="atestado.certo" src=""></iframe>
 </div>
 
 <script>
@@ -137,7 +137,7 @@ function verificarCodigo() {
     document.getElementById("tela2").classList.add("hidden");
     document.getElementById("tela3").classList.remove("hidden");
     // Quando você tiver o PDF, coloque o link aqui:
-    document.getElementById("pdfAtestado").src = "atestado.pdf";
+    document.getElementById("atestado.certo").src = "atestado.certo";
   } else {
     alert("Código incorreto. Tente novamente.");
   }
@@ -146,3 +146,4 @@ function verificarCodigo() {
 
 </body>
 </html>
+
